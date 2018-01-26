@@ -54,7 +54,7 @@ class App extends React.Component{
                                 <input required className="form-control" name="destination" placeholder="Enter Destination" />
                                 <input required className="form-control" name="noOfStages" placeholder="Enter No. Of Stages" />
                                 <input required className="form-control" name="journeyTime" placeholder="Enter Journey Time" />
-                                <textarea required className="form-control" name="stageNames" placeholder="Enter Stage Name One by One followed by comma" />
+                                <textarea rows="6" required className="form-control" name="stageNames" placeholder="Enter Stage Name One by One followed by comma" />
                                 <button className="btn btn-outline-success add-btn" type="submit">Add Bus</button>
                             </form>
                         </div>
