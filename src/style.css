@@ -18,3 +18,49 @@ h3 {
 button.btn.btn-outline-success.add-btn {
     padding: 6px 30px;
 }
+
+@media (max-width: 425px){
+    .form-container {
+        padding: inherit;
+        margin: inherit;
+    }
+    .form-control {
+        margin: inherit;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    button.btn.btn-outline-success.add-btn {
+        padding: 6px 30px;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 426px){
+    .form-container {
+        padding: inherit;
+        margin: inherit;
+    }
+    .form-control {
+        margin: inherit;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    button.btn.btn-outline-success.add-btn {
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+    .form-container {
+        padding: inherit;
+        margin: inherit;
+    }
+    .form-control {
+        margin: inherit;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    button.btn.btn-outline-success.add-btn {
+        margin-bottom: 10px;
+    }
+}
