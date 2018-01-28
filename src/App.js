@@ -11,12 +11,12 @@ class App extends React.Component{
         });
         var stageWiseFare = [5,6,7,8,9,10,11,12,13,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22,23,23];
         var data = {
-            busNo: e.target.elements.busNo.value,
-            routeNo: e.target.elements.routeNo.value,
-            origin: e.target.elements.origin.value,
-            destination: e.target.elements.destination.value,
-            noOfStages: e.target.elements.noOfStages.value,
-            journeyTime: e.target.elements.journeyTime.value,
+            busNo: e.target.elements.busNo.value.trim(),
+            routeNo: e.target.elements.routeNo.value.trim(),
+            origin: e.target.elements.origin.value.trim(),
+            destination: e.target.elements.destination.value.trim(),
+            noOfStages: parseInt(e.target.elements.noOfStages.value),
+            journeyTime: parseInt(e.target.elements.journeyTime.value),
             status: "inactive",
             isReverse: false,
             stageNames,
